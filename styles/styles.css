@@ -1,0 +1,26 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.logo-img{
+    width: 5rem;
+}
+.bestseller{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.logo-banner{
+    width: 150px;
+    padding-bottom: 100px;
+}
+main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.envios{
+    background-color: rgb(108, 83, 43);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
