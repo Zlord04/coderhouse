@@ -5,16 +5,13 @@
     width: 5rem;
 }
 .bestseller{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .logo-banner{
     width: 150px;
     padding-bottom: 100px;
-}
-main{
-    display: grid;
-    grid-template-columns: 20% 80%;
 }
 .envios{
     background-color: rgb(108, 83, 43);
@@ -23,4 +20,27 @@ main{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    border-radius: 40px;
+}
+li a{
+    text-decoration: none;
+}
+a h3{
+    background-color: rgb(108, 83, 43);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+}
+a h3:hover{
+    background-color: rgb(131, 101, 53);
 }
