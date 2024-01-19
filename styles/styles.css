@@ -11,7 +11,9 @@
 }
 .logo-banner{
     width: 150px;
-    padding-bottom: 100px;
+}
+.banner{
+    width: 100vw;
 }
 .envios{
     background-color: rgb(108, 83, 43);
@@ -19,12 +21,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
     align-items: center;
 }
 .categorias{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     list-style: none;
     align-items: center;
     background-color: rgb(236, 236, 236);
@@ -33,14 +38,56 @@
 li a{
     text-decoration: none;
 }
-a h3{
+a h4{
     background-color: rgb(108, 83, 43);
     color: rgb(255, 255, 255);
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 25px;
 }
-a h3:hover{
+a h4:hover{
     background-color: rgb(131, 101, 53);
+}
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(131, 101, 53);
+    color: white;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .datos figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grupo-2{
+    background-color: rgb(108, 83, 43);
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+.iconos-redes{
+    width: 50px;
+}
+@media screen and (max-width: 800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+@media screen and (max-width: 750px){
+    #envios-1{
+        display: none;
+    }
 }
