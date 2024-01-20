@@ -100,6 +100,9 @@ a h4:hover{
     .hiden{
         display: none;
     }
+    .margin-auto{
+        margin: 15px;
+    }
 }
 .vermas{
     display: flex;
@@ -117,4 +120,7 @@ a h4:hover{
         justify-content: center;
         width: 100%;
     }
+}
+.margin-auto{
+    margin: 50px;
 }
