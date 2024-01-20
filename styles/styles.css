@@ -9,6 +9,10 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.bestseller2{
+    display: flex;
+    justify-content: center;
+}
 .logo-banner{
     width: 150px;
 }
@@ -73,8 +77,10 @@ a h4:hover{
 .grupo-2{
     background-color: rgb(108, 83, 43);
     padding: 15px 10px;
-    text-align: center;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .iconos-redes{
     width: 50px;
@@ -91,9 +97,24 @@ a h4:hover{
     #envios-1{
         display: none;
     }
+    .hiden{
+        display: none;
+    }
 }
 .vermas{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.post-ig{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 650px){
+    .bestseller2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 }
