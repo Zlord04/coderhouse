@@ -16,47 +16,47 @@
 </head>
 
 <body>
-    <header>
-        <!-- BARRA DE NAVEGACION -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="images/sm-logo.png" class="logo-img" alt="SM"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="..." role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">Productos</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="pages/productos.html">Fragancias</a></li>
-                                <li><a class="dropdown-item" href="pages/productos.html">Linea Premium</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="pages/productos.html">BodySplash</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="pages/productos.html">Perfumes Textiles</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="pages/productos.html">Difusores</a></li>
-                                
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="¿Que Buscas?" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
+    <!-- BARRA DE NAVEGACION (esta fuera del header porque no encontre otra manera que funcione el sticky) --> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/sm-logo.png" class="logo-img" alt="SM"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="..." role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Productos</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="pages/productos.html">Fragancias</a></li>
+                            <li><a class="dropdown-item" href="pages/productos.html">Linea Premium</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="pages/productos.html">BodySplash</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="pages/productos.html">Perfumes Textiles</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="pages/productos.html">Difusores</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="¿Que Buscas?" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <header>
         <!-- CARRUSEL DE IMAGENES -->
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -125,7 +125,7 @@
         <div>
             <!-- CATEGORIA DEL CATALOGO -->
             <ul class="categorias p-2 pt-3 m-5 shadow">
-                <h2 class="text-center">Catalogo</h2>
+                <h2 class="text-center">Categorias</h2>
                 <li>
                     <a href="pages/productos.html"><h4 class="rounded-pill">Fragancias</h4></a>
                 </li>
@@ -136,7 +136,7 @@
                     <a href="pages/productos.html"><h4 class="rounded-pill">BodySplash</h4></a>
                 </li>
                 <li>
-                    <a href="pages/productos.html"><h4 class="rounded-pill">Perfumes Textiles</h4></a>
+                    <a href="pages/productos.html"><h4 class="rounded-pill">Perfume Textil</h4></a>
                 </li>
                 <li>
                     <a href="pages/productos.html"><h4 class="rounded-pill">Difusores</h4></a>
@@ -183,6 +183,11 @@
                     <a href="#" class="btn btn-primary">Ver mas</a>
                     </div>
                 </div>
+                <p class="d-inline-flex gap-1">
+                    <a data-bs-toggle="collapse" 
+                    href="#collapseExample" role="button" aria-expanded="false" 
+                    aria-controls="collapseExample"></a>
+                </p>
                 <!-- 5 -->
                 <div class="card m-2 shadow" style="width: 18rem;" id="collapseExample">
                     <img src="images/KENDO.jpg" class="card-img-top" alt="Kendo Homme">
@@ -211,16 +216,12 @@
                     </div>
                 </div>
             </div>
-            <p class="d-inline-flex gap-1">
+            <p class="d-inline-flex gap-1 vermas">
                 <a class="btn btn-primary" data-bs-toggle="collapse" 
                 href="#collapseExample" role="button" aria-expanded="false" 
-                aria-controls="collapseExample">
-                  Mostra/Ocultar
-                </a></p>
+                aria-controls="collapseExample">Mostrar/Ocultar</a>
+            </p>
         </section>
-        <aside>
-            <!-- PREGUNTAS FRECUENTES -->
-        </aside>
     </main>
     <footer class="pie-pagina">
         <!-- PIE DE PAGINA -->
