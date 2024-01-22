@@ -94,14 +94,8 @@ a h4:hover{
     }
 }
 @media screen and (max-width: 750px){
-    #envios-1{
-        display: none;
-    }
     .hiden{
         display: none;
-    }
-    .margin-auto{
-        margin: 15px;
     }
 }
 .vermas{
@@ -121,6 +115,10 @@ a h4:hover{
         width: 100%;
     }
 }
-.margin-auto{
-    margin: 50px;
+.articulo2{
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+}
+.margin100{
+    margin: 75px 200px;
 }

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="../styles/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,300&display=swap"
+		rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<title>Sm Fragancias</title>
+</head>
+
+<body>
+	<!-- BARRA DE NAVEGACION (esta fuera del header porque no encontre otra manera que funcione el sticky)-->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="../images/sm-logo.png" class="logo-img" alt="SM"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="nosotros.html">Nosotros</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">Productos</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="productos.html">Todo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+							<li><a class="dropdown-item" href="fragancias.html">Fragancias</a></li>
+							<li><a class="dropdown-item" href="premiums.html">Linea Premium</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="bodysplash.html">BodySplash</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="textiles.html">Perfumes Textiles</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="productos.html">Difusores</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<header>
+		<!-- DETALLES ENVIOS -->
+        <div class="envios pt-1 pb-1 hiden">
+            <h5>Envios:</h5>
+            <div class="text-center">
+                <img src="../images/free.png" alt="icono" style="height: 60px;">
+                <h6>Gratis a partir de $30.000</h6>
+            </div>
+            <div class="text-center">
+                <img src="../images/pais.png" alt="icono" style="height: 60px;">
+                <h6>A todo el pais</h6>
+            </div>
+            <div class="text-center">
+                <img src="../images/puntos.png" alt="icono" style="height: 60px;">
+                <h6>Puntos de encuentro</h6>
+            </div>
+        </div>
+	</header>
+    <div>
+		<!-- CATEGORIA DEL CATALOGO -->
+		<ul class="categorias p-2 pt-3 m-5 shadow">
+			<h2 class="text-center">Categorias</h2>
+			<li>
+				<a href="productos.html">
+					<h4 class="rounded-pill">Todo</h4>
+				</a>
+			</li>
+			<li>
+				<a href="fragancias.html">
+					<h4 class="rounded-pill">Fragancias</h4>
+				</a>
+			</li>
+			<li>
+				<a href="premiums.html">
+					<h4 class="rounded-pill">Linea Premium</h4>
+				</a>
+			</li>
+			<li>
+				<a href="bodysplash.html">
+					<h4 class="rounded-pill">BodySplash</h4>
+				</a>
+			</li>
+			<li>
+				<a href="textiles.html">
+					<h4 class="rounded-pill">Perfume Textil</h4>
+				</a>
+			</li>
+			<li>
+				<a href="productos.html">
+					<h4 class="rounded-pill">Difusores</h4>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<section class="m-2">
+        <!-- CATALOGO -->
+		<h2 class="m-5">Fragancias :</h2>
+		<div class="bestseller">
+			<div class="bestseller2">
+				<!-- 1 -->
+				<div class="card m-1 shadow" style="width: 18rem;">
+					<img src="../images/MEN.jpg" class="card-img-top" alt="Fragancia Maculina">
+					<div class="card-body">
+						<h5 class="card-title">Fragancia Maculina</h5>
+						<h6 class="card-subtitle mb-2 text-body-secondary">Fragancia</h6>
+						<p class="card-text hiden">Perfume de 30ml para hombre con varios aromas a eleccion.</p>
+						<a href="fragancia-hombre.html" class="btn btn-primary">Ver mas</a>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="card m-1 shadow" style="width: 18rem;">
+					<img src="../images/WOMEN.jpg" class="card-img-top" alt="Fragancia Femenina">
+					<div class="card-body">
+						<h5 class="card-title">Fragancia Femenina</h5>
+						<h6 class="card-subtitle mb-2 text-body-secondary">Fragancia</h6>
+						<p class="card-text hiden">Perfume de 30ml para mujer con varios aromas a eleccion.</p>
+						<a href="fragancia-mujer.html" class="btn btn-primary">Ver mas</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav aria-label="Page navigation example" class="mt-3 vermas">
+			<ul class="pagination">
+			  <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+			  <li class="page-item"><a class="page-link" href="#">1</a></li>
+			  <li class="page-item"><a class="page-link" href="#">2</a></li>
+			  <li class="page-item"><a class="page-link" href="#">3</a></li>
+			  <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+			</ul>
+		</nav>
+	</section>
+	</main>
+	<footer class="pie-pagina">
+		<!-- PIE DE PAGINA -->
+		<div class="grupo-1">
+			<div class="datos">
+				<figure>
+					<img src="../images/sm-logo-w.png" alt="logo de SM Fragancias" class="w-50">
+				</figure>
+			</div>
+			<div class="datos">
+				<h3 class="mb-3">Sobre nosotros</h3>
+				<p class="mb-3">Estamos en el mercado desde 2020</p>
+				<p class="mb-3">Trabajamos con productos de la mejor calidad</p>
+				<p class="mb-3">Conocenos mas en el apartado "Nosotros"</p>
+			</div>
+			<div class="datos">
+				<h3>Redes y Contactos</h3>
+				<a href="https://www.instagram.com/sm.fragancias/"><img class="iconos-redes"
+						src="../images/instagram.png" alt=""></a>
+				<a href="https://www.facebook.com/sm.fragancias.ituzaingo"><img class="iconos-redes"
+						src="../images/facebook.png" alt=""></a>
+				<a href="https://api.whatsapp.com/send/?phone=5491163307437&text&type=phone_number&app_absent=0">
+					<img class="iconos-redes" src="../images/whatsapp.png" alt=""></a>
+				<a href="https://www.tiktok.com/@sm.fragancias__?lang=es"><img class="iconos-redes"
+						src="../images/tiktok.png" alt=""></a>
+			</div>
+		</div>
+		<div class="grupo-2">
+			<small>&copy; 2024 <b>SM Fragancias</b> - Todos los Derechos Reservados.</small>
+			<small class="pe-1">Pagina realizada por Mateo Cariboni</small>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
