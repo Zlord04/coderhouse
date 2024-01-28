@@ -42,7 +42,7 @@
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="pages/fragancias.html">Fragancias</a></li>
-                            <li><a class="dropdown-item" href="pages/premiums.html">Linea Premium</a></li>
+                            <li><a class="dropdown-item" href="pages/premiums.html">Premiums</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -50,7 +50,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="pages/textiles.html">Perfumes Textiles</a></li>
+                            <li><a class="dropdown-item" href="pages/textiles.html">Textiles</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -58,6 +58,9 @@
                         </ul>
                     </li>
                 </ul>
+                <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <img src="images/iconos.png" alt="icono carrito" style="width: 50px;">
+                </a>
             </div>
         </div>
     </nav>
@@ -74,7 +77,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/banner.jpg" class="d-block banner" alt="...">
+                    <img src="images/banner.jpg" class="d-block banner" alt="Foto de Banner 1">
                     <div class="carousel-caption d-none d-md-block">
                         <img src="images/sm-logo-w.png" alt="SM" class="logo-banner">
                         <h5>La mejor calidad</h5>
@@ -82,7 +85,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner2.jpg" class="d-block banner" alt="...">
+                    <img src="images/banner2.jpg" class="d-block banner" alt="Foto de Banner 2">
                     <div class="carousel-caption d-none d-md-block">
                         <img src="images/sm-logo-w.png" alt="SM" class="logo-banner">
                         <h5>Atención al cliente excepcional</h5>
@@ -90,7 +93,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner3.jpg" class="d-block banner" alt="...">
+                    <img src="images/banner3.jpg" class="d-block banner" alt="Foto de Banner 3">
                     <div class="carousel-caption d-none d-md-block">
                         <img src="images/sm-logo-w.png" alt="SM" class="logo-banner">
                         <h5>Con trayectoria</h5>
@@ -110,146 +113,264 @@
             </button>
         </div>
         <!-- DETALLES ENVIOS -->
-        <div class="envios pt-1 pb-1 hiden">
+        <div class="envios hiden">
             <h5>Envios:</h5>
-            <div class="text-center">
-                <img src="images/free.png" alt="icono" style="height: 60px;">
-                <h6>Gratis a partir de $30.000</h6>
-            </div>
-            <div class="text-center">
-                <img src="images/pais.png" alt="icono" style="height: 60px;">
-                <h6>A todo el pais</h6>
-            </div>
-            <div class="text-center">
-                <img src="images/puntos.png" alt="icono" style="height: 60px;">
-                <h6>Puntos de encuentro</h6>
-            </div>
+            <h6>Gratis a partir de $30.000</h6>
+            <h5>|</h5>
+            <h6>A todo el pais</h6>
+            <h5>|</h5>
+            <h6>Puntos de encuentro</h6>
         </div>
     </header>
     <!-- PRINCIPAL -->
     <h1 class="p-5 text-center">SM Fragancias</h1>
     <main>
-        <div>
-            <!-- CATEGORIA DEL CATALOGO -->
-            <ul class="categorias p-2 pt-3 m-5 shadow">
-                <h2 class="text-center">Categorias</h2>
-                <li>
-                    <a href="pages/productos.html">
-                        <h4 class="rounded-pill">Todo</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/fragancias.html">
-                        <h4 class="rounded-pill">Fragancias</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/premiums.html">
-                        <h4 class="rounded-pill">Linea Premium</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/bodysplash.html">
-                        <h4 class="rounded-pill">BodySplash</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/textiles.html">
-                        <h4 class="rounded-pill">Perfume Textil</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/difusores.html">
-                        <h4 class="rounded-pill">Difusores</h4>
-                    </a>
-                </li>
-            </ul>
+        <!-- CATEGORIA DEL CATALOGO -->
+        <div class="d-flex justify-content-center m-5">
+            <div class="categorias shadow border border-light-subtle">
+                <h2 class="m-2">Categorias:</h2>
+                <a href="pages/productos.html" class="btn btn-primary m-2">Todo</a>
+                <a href="pages/fragancias.html" class="btn btn-primary m-2">Fragancias</a>
+                <a href="pages/premiums.html" class="btn btn-primary m-2">Premiums</a>
+                <a href="pages/bodysplash.html" class="btn btn-primary m-2">BodySplash</a>
+                <a href="pages/textiles.html" class="btn btn-primary m-2">Textiles</a>
+                <a href="pages/difusores.html" class="btn btn-primary m-2">Difusores</a>
+            </div>
         </div>
         <section>
             <!-- MUESTRA DE PRODUCTOS MAS VENDIDOS -->
             <h2 class="mb-5 text-center">Mas vendidos :</h2>
             <div class="bestseller">
-                <!-- 1 -->
-                <div class="card m-2 shadow" style="width: 18rem;">
-                    <img src="images/MEN.jpg" class="card-img-top" alt="Fragancia Maculina">
-                    <div class="card-body">
-                        <h5 class="card-title">Fragancia Maculina</h5>
-                        <p class="card-text">Perfume de 30ml para hombre con varios aromas a eleccion.</p>
-                        <a href="pages/fragancia-hombre.html" class="btn btn-primary">Ver mas</a>
+                <div class="bestseller2">
+                    <!-- 1 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/MEN.jpg" class="card-img-top" alt="Fragancia Maculina">
+                        <div class="card-body">
+                            <h5 class="card-title">Fragancia Maculina</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Fragancia</h6>
+                            <p class="card-text hiden">Perfume de 30ml para hombre con varios aromas a eleccion.</p>
+                            <a href="fragancia-hombre.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/WOMEN.jpg" class="card-img-top" alt="Fragancia Femenina">
+                        <div class="card-body">
+                            <h5 class="card-title">Fragancia Femenina</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Fragancia</h6>
+                            <p class="card-text hiden">Perfume de 30ml para mujer con varios aromas a eleccion.</p>
+                            <a href="fragancia-mujer.html" class="btn btn-primary">Ver mas</a>
+                        </div>
                     </div>
                 </div>
-                <!-- 2 -->
-                <div class="card m-2 shadow" style="width: 18rem;">
-                    <img src="images/WOMEN.jpg" class="card-img-top" alt="Fragancia Femenina">
-                    <div class="card-body">
-                        <h5 class="card-title">Fragancia Femenina</h5>
-                        <p class="card-text">Perfume de 30ml para mujer con varios aromas a eleccion.</p>
-                        <a href="pages/fragancia-mujer.html" class="btn btn-primary">Ver mas</a>
+                <div class="bestseller2">
+                    <!-- 3 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/BLACK-SUPREME.jpg" class="card-img-top" alt="Black Supreme">
+                        <div class="card-body">
+                            <h5 class="card-title">Black Supreme</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Linea Premium</h6>
+                            <p class="card-text hiden">Perfume de 100ml simil "Polo Black - Ralph Lauren"</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/INVICTO.jpg" class="card-img-top" alt="Invicto">
+                        <div class="card-body">
+                            <h5 class="card-title">Invicto</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Linea Premium</h6>
+                            <p class="card-text hiden">Perfume de 110ml simil "Invictus - Paco Rabanne"</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
                     </div>
                 </div>
-                <!-- 3 -->
-                <div class="card m-2 shadow" style="width: 18rem;">
-                    <img src="images/BLACK-SUPREME.jpg" class="card-img-top" alt="Black Supreme">
-                    <div class="card-body">
-                        <h5 class="card-title">Black Supreme</h5>
-                        <p class="card-text">Perfume de 100ml simil "Polo Black - Ralph Lauren"</p>
-                        <a href="pages/articulo.html" class="btn btn-primary">Ver mas</a>
+                <div class="bestseller2">
+                    <!-- 5 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/KENDO.jpg" class="card-img-top" alt="Kendo Homme">
+                        <div class="card-body">
+                            <h5 class="card-title">Kendo Homme</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Linea Premium</h6>
+                            <p class="card-text hiden">Perfume de 100ml simil "Kenzo Homme Eau De Toilette"</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/BLOOM.jpg" class="card-img-top" alt="Bloom">
+                        <div class="card-body">
+                            <h5 class="card-title">Bloom</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Linea Premium</h6>
+                            <p class="card-text hiden">Perfume de 100ml simil "Nina - Nina Ricci"</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
                     </div>
                 </div>
-                <!-- 4 -->
-                <div class="card m-2 shadow" style="width: 18rem;">
-                    <img src="images/INVICTO.jpg" class="card-img-top" alt="Invicto">
-                    <div class="card-body">
-                        <h5 class="card-title">Invicto</h5>
-                        <p class="card-text">Perfume de 110ml simil "Invictus - Paco Rabanne"</p>
-                        <a href="pages/articulo.html" class="btn btn-primary">Ver mas</a>
+                <div class="bestseller2" id="collapseExample">
+                    <!-- 7 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/NIGHT.jpg" class="card-img-top" alt="Night Witches">
+                        <div class="card-body">
+                            <h5 class="card-title">Night Witches</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Linea Premium</h6>
+                            <p class="card-text hiden">Perfume de 100ml simil "Halloween - J. del Pozo"</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/PRETTY-WOMAN.jpg" class="card-img-top" alt="Pretty Woman">
+                        <div class="card-body">
+                            <h5 class="card-title">Pretty Woman</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Linea Premium</h6>
+                            <p class="card-text hiden">Perfume de 60ml simil "Ricci Ricci - Nina Ricci"</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
                     </div>
                 </div>
-                <!-- 5 -->
-                <div class="card m-2 shadow" style="width: 18rem;" id="collapseExample">
-                    <img src="images/KENDO.jpg" class="card-img-top" alt="Kendo Homme">
-                    <div class="card-body">
-                        <h5 class="card-title">Kendo Homme</h5>
-                        <p class="card-text">Perfume de 100ml simil "Kenzo Homme Eau De Toilette"</p>
-                        <a href="#" class="btn btn-primary">Ver mas</a>
+                <div class="bestseller2" id="collapseExample">
+                    <!-- 9 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/OK.jpg" class="card-img-top" alt="ok">
+                        <div class="card-body">
+                            <h5 class="card-title">OK</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Linea Premium</h6>
+                            <p class="card-text hiden">Perfume de 100ml simil "Calvin Klein One"</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <!-- 10 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/RED-FLOWER.jpg" class="card-img-top" alt="Red Flower">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Flower</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Linea Premium</h6>
+                            <p class="card-text hiden">Perfume de 50ml simil "Flower - Kenzo"</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
                     </div>
                 </div>
-                <!-- 6 -->
-                <div class="card m-2 shadow" style="width: 18rem;" id="collapseExample">
-                    <img src="images/BLOOM.jpg" class="card-img-top" alt="Bloom">
-                    <div class="card-body">
-                        <h5 class="card-title">Bloom</h5>
-                        <p class="card-text">Perfume de 100ml simil "Nina - Nina Ricci"</p>
-                        <a href="#" class="btn btn-primary">Ver mas</a>
+                <div class="bestseller2" id="collapseExample">
+                    <!-- 11 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/POLO-RED.jpg" class="card-img-top" alt="Red Horse">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Horse</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Linea Premium</h6>
+                            <p class="card-text hiden">Perfume de 80ml simil "Polo Red - Ralph Lauren"</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <!-- 12 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/SILVER-MEN.jpg" class="card-img-top" alt="Silver Men">
+                        <div class="card-body">
+                            <h5 class="card-title">Silver Men</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Linea Premium</h6>
+                            <p class="card-text hiden">Perfume de 110ml simil "212 - Carolina Herrera"</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
                     </div>
                 </div>
-                <!-- 7 -->
-                <div class="card m-2 shadow" style="width: 18rem;" id="collapseExample">
-                    <img src="images/NIGHT.jpg" class="card-img-top" alt="Night Witches">
-                    <div class="card-body">
-                        <h5 class="card-title">Night Witches</h5>
-                        <p class="card-text">Perfume de 100ml simil "Halloween - J. del Pozo"</p>
-                        <a href="#" class="btn btn-primary">Ver mas</a>
+                <div class="bestseller2" id="collapseExample">
+                    <!-- 13 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/BODYSPLASH2.jpg" class="card-img-top" alt="Blue Tequila">
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Tequila</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">BodySplash</h6>
+                            <p class="card-text hiden">BodySplash de 130ml</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <!-- 14 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/BODYSPLASH.jpg" class="card-img-top" alt="Lirios y Frutos Rojos">
+                        <div class="card-body">
+                            <h5 class="card-title">Lirios y Frutos Rojos</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">BodySplash</h6>
+                            <p class="card-text hiden">BodySplash de 130ml</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
                     </div>
                 </div>
-                <!-- 8 -->
-                <div class="card m-2 shadow" style="width: 18rem;" id="collapseExample">
-                    <img src="images/pretty-woman.jpg" class="card-img-top" alt="Pretty Woman">
-                    <div class="card-body">
-                        <h5 class="card-title">Pretty Woman</h5>
-                        <p class="card-text">Perfume de 60ml simil "Ricci Ricci - Nina Ricci"</p>
-                        <a href="#" class="btn btn-primary">Ver mas</a>
+                <div class="bestseller2" id="collapseExample">
+                    <!-- 15 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/CKONE.jpg" class="card-img-top" alt="CK ONE">
+                        <div class="card-body">
+                            <h5 class="card-title">CK ONE</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Perfume Textil</h6>
+                            <p class="card-text hiden">Perfume textil de 250ml</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <!-- 16 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/CHER.jpg" class="card-img-top" alt="Cher">
+                        <div class="card-body">
+                            <h5 class="card-title">Cher</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Perfume Textil</h6>
+                            <p class="card-text hiden">Perfume textil de 250ml</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="vermas mt-2">
-                <p class="d-inline-flex gap-1">
-                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
-                        aria-expanded="false" aria-controls="collapseExample">Mostrar/Ocultar</a>
-                </p>
-            </div>
-
+                <div class="bestseller2" id="collapseExample">
+                    <!-- 17 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/AZAHAR-FRESH.jpg" class="card-img-top" alt="Azahar Fresh">
+                        <div class="card-body">
+                            <h5 class="card-title">Azahar Fresh</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Difusores</h6>
+                            <p class="card-text hiden">Difusor de 250ml</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <!-- 18 -->
+                    <div class="card m-1 shadow" style="width: 18rem;">
+                        <img src="../images/CHERRY.jpg" class="card-img-top" alt="Cherry & Berry">
+                        <div class="card-body">
+                            <h5 class="card-title">Cherry & Berry</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Difusores</h6>
+                            <p class="card-text hiden">Difusor de 250ml</p>
+                            <a href="articulo.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
         </section>
+        <div class="vermas m-4">
+            <p class="d-inline-flex gap-1">
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">Mostrar/Ocultar</a>
+            </p>
+        </div>
+        <!-- CARRITO DE COMPRAS -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Carrito de compras</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="d-flex m-1 rounded border border-light-subtle shadow-sm" style="width: 22rem;">
+                    <img src="../images/CHERRY.jpg" style="width: 100px;" alt="Cherry & Berry" class="mx-2">
+                    <div class="card-body mt-2">
+                        <h5 class="card-title">Cherry & Berry</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Difusores</h6>
+                        <p class="card-text hiden">Difusor de 250ml</p>
+                    </div>
+                </div>
+                <div class="boton-compra d-flex justify-content-end">
+                    <button type="button" class="btn btn-outline-primary">Agregar</button>
+                    <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+            </div>
+        </div>
+
+
+
     </main>
     <footer class="pie-pagina">
         <!-- PIE DE PAGINA -->

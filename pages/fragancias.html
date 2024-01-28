@@ -38,11 +38,11 @@
 							aria-expanded="false">Productos</a>
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item" href="productos.html">Todo</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
 							<li><a class="dropdown-item" href="fragancias.html">Fragancias</a></li>
-							<li><a class="dropdown-item" href="premiums.html">Linea Premium</a></li>
+							<li><a class="dropdown-item" href="premiums.html">Premiums</a></li>
 							<li>
 								<hr class="dropdown-divider">
 							</li>
@@ -50,7 +50,7 @@
 							<li>
 								<hr class="dropdown-divider">
 							</li>
-							<li><a class="dropdown-item" href="textiles.html">Perfumes Textiles</a></li>
+							<li><a class="dropdown-item" href="textiles.html">Textiles</a></li>
 							<li>
 								<hr class="dropdown-divider">
 							</li>
@@ -63,95 +63,65 @@
 	</nav>
 	<header>
 		<!-- DETALLES ENVIOS -->
-        <div class="envios pt-1 pb-1 hiden">
-            <h5>Envios:</h5>
-            <div class="text-center">
-                <img src="../images/free.png" alt="icono" style="height: 60px;">
-                <h6>Gratis a partir de $30.000</h6>
-            </div>
-            <div class="text-center">
-                <img src="../images/pais.png" alt="icono" style="height: 60px;">
-                <h6>A todo el pais</h6>
-            </div>
-            <div class="text-center">
-                <img src="../images/puntos.png" alt="icono" style="height: 60px;">
-                <h6>Puntos de encuentro</h6>
-            </div>
-        </div>
+		<div class="envios hiden">
+			<h5>Envios:</h5>
+			<h6>Gratis a partir de $30.000</h6>
+			<h5>|</h5>
+			<h6>A todo el pais</h6>
+			<h5>|</h5>
+			<h6>Puntos de encuentro</h6>
+		</div>
 	</header>
-    <div>
+	<main>
 		<!-- CATEGORIA DEL CATALOGO -->
-		<ul class="categorias p-2 pt-3 m-5 shadow">
-			<h2 class="text-center">Categorias</h2>
-			<li>
-				<a href="productos.html">
-					<h4 class="rounded-pill">Todo</h4>
-				</a>
-			</li>
-			<li>
-				<a href="fragancias.html">
-					<h4 class="rounded-pill">Fragancias</h4>
-				</a>
-			</li>
-			<li>
-				<a href="premiums.html">
-					<h4 class="rounded-pill">Linea Premium</h4>
-				</a>
-			</li>
-			<li>
-				<a href="bodysplash.html">
-					<h4 class="rounded-pill">BodySplash</h4>
-				</a>
-			</li>
-			<li>
-				<a href="textiles.html">
-					<h4 class="rounded-pill">Perfume Textil</h4>
-				</a>
-			</li>
-			<li>
-				<a href="difusores.html">
-					<h4 class="rounded-pill">Difusores</h4>
-				</a>
-			</li>
-		</ul>
-	</div>
-	<section class="m-2">
-        <!-- CATALOGO -->
-		<h2 class="m-5">Fragancias :</h2>
-		<div class="bestseller">
-			<div class="bestseller2">
-				<!-- 1 -->
-				<div class="card m-1 shadow" style="width: 18rem;">
-					<img src="../images/MEN.jpg" class="card-img-top" alt="Fragancia Maculina">
-					<div class="card-body">
-						<h5 class="card-title">Fragancia Maculina</h5>
-						<h6 class="card-subtitle mb-2 text-body-secondary">Fragancia</h6>
-						<p class="card-text hiden">Perfume de 30ml para hombre con varios aromas a eleccion.</p>
-						<a href="fragancia-hombre.html" class="btn btn-primary">Ver mas</a>
+		<div class="d-flex justify-content-center m-5">
+			<div class="categorias shadow border border-light-subtle">
+				<h2 class="m-2">Categorias:</h2>
+				<a href="productos.html" class="btn btn-primary m-2">Todo</a>
+				<a href="fragancias.html" class="btn btn-primary m-2">Fragancias</a>
+				<a href="premiums.html" class="btn btn-primary m-2">Premiums</a>
+				<a href="bodysplash.html" class="btn btn-primary m-2">BodySplash</a>
+				<a href="textiles.html" class="btn btn-primary m-2">Textiles</a>
+				<a href="difusores.html" class="btn btn-primary m-2">Difusores</a>
+			</div>
+		</div>
+		<section class="m-2">
+			<!-- CATALOGO -->
+			<h2 class="m-5">Fragancias :</h2>
+			<div class="bestseller">
+				<div class="bestseller2">
+					<!-- 1 -->
+					<div class="card m-1 shadow" style="width: 18rem;">
+						<img src="../images/MEN.jpg" class="card-img-top" alt="Fragancia Maculina">
+						<div class="card-body">
+							<h5 class="card-title">Fragancia Maculina</h5>
+							<h6 class="card-subtitle mb-2 text-body-secondary">Fragancia</h6>
+							<p class="card-text hiden">Perfume de 30ml para hombre con varios aromas a eleccion.</p>
+							<a href="fragancia-hombre.html" class="btn btn-primary">Ver mas</a>
+						</div>
 					</div>
-				</div>
-				<!-- 2 -->
-				<div class="card m-1 shadow" style="width: 18rem;">
-					<img src="../images/WOMEN.jpg" class="card-img-top" alt="Fragancia Femenina">
-					<div class="card-body">
-						<h5 class="card-title">Fragancia Femenina</h5>
-						<h6 class="card-subtitle mb-2 text-body-secondary">Fragancia</h6>
-						<p class="card-text hiden">Perfume de 30ml para mujer con varios aromas a eleccion.</p>
-						<a href="fragancia-mujer.html" class="btn btn-primary">Ver mas</a>
+					<!-- 2 -->
+					<div class="card m-1 shadow" style="width: 18rem;">
+						<img src="../images/WOMEN.jpg" class="card-img-top" alt="Fragancia Femenina">
+						<div class="card-body">
+							<h5 class="card-title">Fragancia Femenina</h5>
+							<h6 class="card-subtitle mb-2 text-body-secondary">Fragancia</h6>
+							<p class="card-text hiden">Perfume de 30ml para mujer con varios aromas a eleccion.</p>
+							<a href="fragancia-mujer.html" class="btn btn-primary">Ver mas</a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<nav aria-label="Page navigation example" class="mt-3 vermas">
-			<ul class="pagination">
-			  <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
-			  <li class="page-item"><a class="page-link" href="#">1</a></li>
-			  <li class="page-item"><a class="page-link" href="#">2</a></li>
-			  <li class="page-item"><a class="page-link" href="#">3</a></li>
-			  <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
-			</ul>
-		</nav>
-	</section>
+			<nav aria-label="Page navigation example" class="mt-3 vermas">
+				<ul class="pagination">
+					<li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+				</ul>
+			</nav>
+		</section>
 	</main>
 	<footer class="pie-pagina">
 		<!-- PIE DE PAGINA -->
@@ -188,5 +158,4 @@
 		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 		crossorigin="anonymous"></script>
 </body>
-
 </html>

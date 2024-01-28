@@ -20,24 +20,38 @@
     width: 100vw;
 }
 .envios{
-    background-color: rgb(108, 83, 43);
+    background: linear-gradient(
+        to right,
+        rgb(131, 101, 53),
+        rgb(88, 68, 35));
     color: rgb(255, 255, 255);
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 50px;
+    flex-direction: row;
     align-items: center;
+    padding: 10px !important;
+}
+h5{
+    margin: 0px !important;
+}
+h6{
+    margin: 0px !important;
 }
 .categorias{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: inline-flex;
+    justify-content: center;
     flex-wrap: wrap;
     list-style: none;
-    align-items: center;
-    background-color: rgb(236, 236, 236);
-    border-radius: 40px;
+    border-color: rgb(218, 218, 218);
+    border-radius: 15px;
+    padding: 5px;
+}
+@media screen and (max-width: 650px){
+    .bestseller2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 }
 li a{
     text-decoration: none;
@@ -93,6 +107,11 @@ a h4:hover{
         padding: 35px 0px;
     }
 }
+@media screen and (max-width: 1000px){
+    .hiden-ig{
+        display: none;
+    }
+}
 @media screen and (max-width: 750px){
     .hiden{
         display: none;
@@ -103,22 +122,39 @@ a h4:hover{
     flex-direction: row;
     justify-content: center;
 }
+.page-link{
+    color: rgb(108, 83, 43) !important;
+}
 .post-ig{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-@media screen and (max-width: 650px){
-    .bestseller2{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-}
+
 .articulo2{
     display: grid;
     grid-template-columns: 10% 45% 45%;
 }
 .margin100{
     margin: 75px 200px;
+}
+.btn-primary{
+    background-color: rgb(131, 101, 53) !important;
+    border-color: rgb(131, 101, 53) !important;
+}
+.btn-primary:hover{
+    background-color: rgb(108, 83, 43) !important;
+    border-color: rgb(108, 83, 43) !important;
+}
+.btn-outline-primary{
+    border-color: rgb(131, 101, 53) !important;
+    color: rgb(131, 101, 53) !important;
+}
+.btn-outline-primary:hover{
+    border-color: rgb(108, 83, 43) !important;
+    background-color: rgb(108, 83, 43) !important;
+    color: rgb(255, 255, 255) !important;
+}
+.preguntas{
+    margin: 3vw;
 }
