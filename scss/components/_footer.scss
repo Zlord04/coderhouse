@@ -1,0 +1,41 @@
+@import "../base/variables";
+@import "../utilies/botones";
+
+// PIE DE PAGINA
+.pie-pagina{
+    width: 100%;
+    background-color: $colorPrincipal;
+    color: white;
+    .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+        figure{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .grupo-2{
+        background-color: $colorSecundario;
+        padding: 15px 10px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}

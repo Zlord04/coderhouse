@@ -1,0 +1,46 @@
+@import "../base/variables";
+@import "../utilies/botones";
+
+// BEST SELLER
+.bestseller{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .bestseller2{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 650px){
+    .bestseller2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+// NAV CATEGORIAS
+.categorias{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    border-color: rgb(218, 218, 218);
+    border-radius: 15px;
+    padding: 5px;
+}
+li{
+    a{
+        text-decoration: none;
+        h4{
+            background-color: $colorSecundario;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 20px;
+            &:hover{
+                background-color: $colorPrincipal;
+            }
+        }
+    } 
+}

@@ -1,0 +1,16 @@
+@import "../base/variables";
+@import "../utilies/botones";
+
+// ENVIOS
+.envios{
+    background: linear-gradient(
+        to right,
+        $colorPrincipal,
+        $colorSecundario);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px !important;
+}

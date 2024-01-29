@@ -1,160 +1,202 @@
-*{
-    font-family: 'Poppins', sans-serif;
+.btn-primary {
+  background-color: rgb(131, 101, 53) !important;
+  border-color: rgb(131, 101, 53) !important;
 }
-.logo-img{
-    width: 5rem;
-}
-.bestseller{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.bestseller2{
-    display: flex;
-    justify-content: center;
-}
-.logo-banner{
-    width: 150px;
-}
-.banner{
-    width: 100vw;
-}
-.envios{
-    background: linear-gradient(
-        to right,
-        rgb(131, 101, 53),
-        rgb(88, 68, 35));
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px !important;
-}
-h5{
-    margin: 0px !important;
-}
-h6{
-    margin: 0px !important;
-}
-.categorias{
-    display: inline-flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    list-style: none;
-    border-color: rgb(218, 218, 218);
-    border-radius: 15px;
-    padding: 5px;
-}
-@media screen and (max-width: 650px){
-    .bestseller2{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-}
-li a{
-    text-decoration: none;
-}
-a h4{
-    background-color: rgb(108, 83, 43);
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 20px;
-}
-a h4:hover{
-    background-color: rgb(131, 101, 53);
-}
-.pie-pagina{
-    width: 100%;
-    background-color: rgb(131, 101, 53);
-    color: white;
-}
-.pie-pagina .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
-}
-.pie-pagina .grupo-1 .datos figure{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.grupo-2{
-    background-color: rgb(108, 83, 43);
-    padding: 15px 10px;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.iconos-redes{
-    width: 50px;
-}
-@media screen and (max-width: 800px){
-    .pie-pagina .grupo-1{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
-    }
-}
-@media screen and (max-width: 1000px){
-    .hiden-ig{
-        display: none;
-    }
-}
-@media screen and (max-width: 750px){
-    .hiden{
-        display: none;
-    }
-}
-.vermas{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.page-link{
-    color: rgb(108, 83, 43) !important;
-}
-.post-ig{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.btn-primary:hover {
+  background-color: rgb(108, 83, 43) !important;
+  border-color: rgb(108, 83, 43) !important;
 }
 
-.articulo2{
-    display: grid;
-    grid-template-columns: 10% 45% 45%;
+.btn-outline-primary {
+  border-color: rgb(131, 101, 53) !important;
+  color: rgb(131, 101, 53) !important;
 }
-.margin100{
-    margin: 75px 200px;
+.btn-outline-primary:hover {
+  border-color: rgb(108, 83, 43) !important;
+  background-color: rgb(108, 83, 43) !important;
+  color: rgb(255, 255, 255) !important;
 }
-.btn-primary{
-    background-color: rgb(131, 101, 53) !important;
-    border-color: rgb(131, 101, 53) !important;
+
+.btn-primary {
+  background-color: rgb(131, 101, 53) !important;
+  border-color: rgb(131, 101, 53) !important;
 }
-.btn-primary:hover{
-    background-color: rgb(108, 83, 43) !important;
-    border-color: rgb(108, 83, 43) !important;
+.btn-primary:hover {
+  background-color: rgb(108, 83, 43) !important;
+  border-color: rgb(108, 83, 43) !important;
 }
-.btn-outline-primary{
-    border-color: rgb(131, 101, 53) !important;
-    color: rgb(131, 101, 53) !important;
+
+.btn-outline-primary {
+  border-color: rgb(131, 101, 53) !important;
+  color: rgb(131, 101, 53) !important;
 }
-.btn-outline-primary:hover{
-    border-color: rgb(108, 83, 43) !important;
-    background-color: rgb(108, 83, 43) !important;
-    color: rgb(255, 255, 255) !important;
+.btn-outline-primary:hover {
+  border-color: rgb(108, 83, 43) !important;
+  background-color: rgb(108, 83, 43) !important;
+  color: rgb(255, 255, 255) !important;
 }
-.preguntas{
-    margin: 3vw;
+
+.envios {
+  background: linear-gradient(to right, rgb(131, 101, 53), rgb(108, 83, 43));
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px !important;
 }
+
+.btn-primary {
+  background-color: rgb(131, 101, 53) !important;
+  border-color: rgb(131, 101, 53) !important;
+}
+.btn-primary:hover {
+  background-color: rgb(108, 83, 43) !important;
+  border-color: rgb(108, 83, 43) !important;
+}
+
+.btn-outline-primary {
+  border-color: rgb(131, 101, 53) !important;
+  color: rgb(131, 101, 53) !important;
+}
+.btn-outline-primary:hover {
+  border-color: rgb(108, 83, 43) !important;
+  background-color: rgb(108, 83, 43) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.bestseller {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bestseller .bestseller2 {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 650px) {
+  .bestseller2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+.categorias {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  border-color: rgb(218, 218, 218);
+  border-radius: 15px;
+  padding: 5px;
+}
+
+li a {
+  text-decoration: none;
+}
+li a h4 {
+  background-color: rgb(108, 83, 43);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+li a h4:hover {
+  background-color: rgb(131, 101, 53);
+}
+
+.btn-primary {
+  background-color: rgb(131, 101, 53) !important;
+  border-color: rgb(131, 101, 53) !important;
+}
+.btn-primary:hover {
+  background-color: rgb(108, 83, 43) !important;
+  border-color: rgb(108, 83, 43) !important;
+}
+
+.btn-outline-primary {
+  border-color: rgb(131, 101, 53) !important;
+  color: rgb(131, 101, 53) !important;
+}
+.btn-outline-primary:hover {
+  border-color: rgb(108, 83, 43) !important;
+  background-color: rgb(108, 83, 43) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.pie-pagina {
+  width: 100%;
+  background-color: rgb(131, 101, 53);
+  color: white;
+}
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-2 {
+  background-color: rgb(108, 83, 43);
+  padding: 15px 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+  .hiden-ig {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .hiden {
+    display: none;
+  }
+}
+.articulo2 {
+  display: grid;
+  grid-template-columns: 10% 45% 45%;
+}
+
+h5 {
+  margin: 0px !important;
+}
+
+h6 {
+  margin: 0px !important;
+}
+
+.margin100 {
+  margin: 75px 200px;
+}
+
+.page-link {
+  color: rgb(108, 83, 43) !important;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,37 @@
+@import "./base/variables";
+@import "./utilies/botones";
+
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 1000px){
+    .hiden-ig{
+        display: none;
+    }
+}
+@media screen and (max-width: 750px){
+    .hiden{
+        display: none;
+    }
+}
+.articulo2{
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+}
+h5{
+    margin: 0px !important;
+}
+h6{
+    margin: 0px !important;
+}
+.margin100{
+    margin: 75px 200px;
+}
+.page-link{
+    color: $colorSecundario !important;
+}

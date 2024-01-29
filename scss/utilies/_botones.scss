@@ -1,0 +1,18 @@
+//BOTONES
+.btn-primary{
+    background-color: $colorPrincipal !important;
+    border-color: $colorPrincipal !important;
+    &:hover{
+        background-color: $colorSecundario !important;
+        border-color: $colorSecundario !important;
+    }
+}
+.btn-outline-primary{
+    border-color: $colorPrincipal !important;
+    color: $colorPrincipal !important;
+    &:hover{
+        border-color: $colorSecundario !important;
+        background-color: $colorSecundario !important;
+        color: rgb(255, 255, 255) !important;
+    }
+}

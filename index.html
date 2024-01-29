@@ -19,7 +19,7 @@
     <!-- BARRA DE NAVEGACION (esta fuera del header porque no encontre otra manera que funcione el sticky) -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/sm-logo.png" class="logo-img" alt="SM"></a>
+            <a class="navbar-brand" href="#"><img src="images/sm-logo.png" style="width: 5rem;" alt="SM"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -77,25 +77,25 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/banner.jpg" class="d-block banner" alt="Foto de Banner 1">
+                    <img src="images/banner.jpg" class="d-block" style="width: 100vw;" alt="Foto de Banner 1">
                     <div class="carousel-caption d-none d-md-block">
-                        <img src="images/sm-logo-w.png" alt="SM" class="logo-banner">
+                        <img src="images/sm-logo-w.png" alt="SM" style="width: 150px;">
                         <h5>La mejor calidad</h5>
                         <p>Contamos con productos de la mejor calidad para usted</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner2.jpg" class="d-block banner" alt="Foto de Banner 2">
+                    <img src="images/banner2.jpg" class="d-block" style="width: 100vw;" alt="Foto de Banner 2">
                     <div class="carousel-caption d-none d-md-block">
-                        <img src="images/sm-logo-w.png" alt="SM" class="logo-banner">
+                        <img src="images/sm-logo-w.png" alt="SM" style="width: 150px;">
                         <h5>Atención al cliente excepcional</h5>
                         <p>Somos comprometidos con nuestro trabajo.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner3.jpg" class="d-block banner" alt="Foto de Banner 3">
+                    <img src="images/banner3.jpg" class="d-block" style="width: 100vw;" alt="Foto de Banner 3">
                     <div class="carousel-caption d-none d-md-block">
-                        <img src="images/sm-logo-w.png" alt="SM" class="logo-banner">
+                        <img src="images/sm-logo-w.png" alt="SM" style="width: 150px;">
                         <h5>Con trayectoria</h5>
                         <p>Aromatizamos tu vida desde 2020.</p>
                     </div>
@@ -340,7 +340,7 @@
                     </div>
                 </div>
         </section>
-        <div class="vermas m-4">
+        <div class="d-flex justify-content-center m-4">
             <p class="d-inline-flex gap-1">
                 <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
                     aria-expanded="false" aria-controls="collapseExample">Mostrar/Ocultar</a>
@@ -353,49 +353,56 @@
                 <h5 class="offcanvas-title" id="offcanvasExampleLabel">Carrito de compras</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
-                <div class="d-flex m-1 rounded border border-light-subtle shadow-sm" style="width: 22rem;">
-                    <img src="../images/CHERRY.jpg" style="width: 100px;" alt="Cherry & Berry" class="mx-2">
-                    <div class="card-body mt-2">
-                        <h5 class="card-title">Cherry & Berry</h5>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Difusores</h6>
-                        <p class="card-text hiden">Difusor de 250ml</p>
+            <div class="offcanvas-body d-flex flex-column justify-content-between">
+                <div>
+                    <div class="d-flex m-1 rounded border border-light-subtle shadow-sm" style="width: 22rem;">
+                        <img src="images/CHERRY.jpg" style="width: 100px;" alt="Cherry & Berry" class="mx-2">
+                        <div class="card-body mt-2">
+                            <h5 class="card-title">Cherry & Berry</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Difusores</h6>
+                            <p class="card-text hiden">Difusor de 250ml</p>
+                        </div>
+                    </div>
+                    <div class="d-flex m-1 rounded border border-light-subtle shadow-sm" style="width: 22rem;">
+                        <img src="images/INVICTO.jpg" style="width: 100px;" alt="Cherry & Berry" class="mx-2">
+                        <div class="card-body mt-2">
+                            <h5 class="card-title">Invicto</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Linea Premium</h6>
+                            <p class="card-text hiden">Perfume de 110ml</p>
+                        </div>
                     </div>
                 </div>
-                <div class="boton-compra d-flex justify-content-end">
-                    <button type="button" class="btn btn-outline-primary">Agregar</button>
-                    <button type="button" class="btn btn-primary">Comprar</button>
+                <div class="boton-compra d-flex justify-content-end m-1">
+                    <button type="button" class="btn btn-outline-primary m-1">Agregar</button>
+                    <button type="button" class="btn btn-primary m-1">Comprar</button>
                 </div>
             </div>
         </div>
-
-
-
     </main>
     <footer class="pie-pagina">
         <!-- PIE DE PAGINA -->
         <div class="grupo-1">
-            <div class="datos">
+            <div>
                 <figure>
                     <img src="images/sm-logo-w.png" alt="logo de SM Fragancias" class="w-50">
                 </figure>
             </div>
-            <div class="datos">
+            <div>
                 <h3 class="mb-3">Sobre nosotros</h3>
                 <p class="mb-3">Estamos en el mercado desde 2020</p>
                 <p class="mb-3">Trabajamos con productos de la mejor calidad</p>
                 <p class="mb-3">Conocenos mas en el apartado "Nosotros"</p>
             </div>
-            <div class="datos">
+            <div>
                 <h3>Redes y Contactos</h3>
-                <a href="https://www.instagram.com/sm.fragancias/"><img class="iconos-redes"
-                        src="../images/instagram.png" alt=""></a>
-                <a href="https://www.facebook.com/sm.fragancias.ituzaingo"><img class="iconos-redes"
-                        src="../images/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/sm.fragancias/"><img style="width: 50px;"
+                        src="images/instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/sm.fragancias.ituzaingo"><img style="width: 50px;"
+                        src="images/facebook.png" alt=""></a>
                 <a href="https://api.whatsapp.com/send/?phone=5491163307437&text&type=phone_number&app_absent=0">
-                    <img class="iconos-redes" src="../images/whatsapp.png" alt=""></a>
-                <a href="https://www.tiktok.com/@sm.fragancias__?lang=es"><img class="iconos-redes"
-                        src="../images/tiktok.png" alt=""></a>
+                    <img style="width: 50px;" src="../images/whatsapp.png" alt=""></a>
+                <a href="https://www.tiktok.com/@sm.fragancias__?lang=es"><img style="width: 50px;"
+                        src="images/tiktok.png" alt=""></a>
             </div>
         </div>
         <div class="grupo-2">
