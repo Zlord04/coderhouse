@@ -90,22 +90,21 @@ li{
             }
         }
     }
-    @media screen and (max-width: 750px){
-        .articulo{
-            padding: 8px;
-            .articulo2{
-                display: flex;
-                flex-direction: column;
-            }
-        }
-    }
     @media screen and (max-width: 850px){
         .articulo2{
-            display: grid;
             grid-template-columns: 40% 60%;
             .hiden-img{
                 display: none;
             }
+        }
+    }
+}
+@media screen and (max-width: 750px){
+    .articulo{
+        padding: 8px;
+        .articulo2{
+            display: flex;
+            flex-direction: column;
         }
     }
 }

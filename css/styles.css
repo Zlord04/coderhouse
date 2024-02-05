@@ -162,18 +162,8 @@ li a h4:hover {
 .articulo .articulo2 .hiden-img .img-articulo {
   width: 100px;
 }
-@media screen and (max-width: 750px) {
-  .articulo .articulo {
-    padding: 8px;
-  }
-  .articulo .articulo .articulo2 {
-    display: flex;
-    flex-direction: column;
-  }
-}
 @media screen and (max-width: 850px) {
   .articulo .articulo2 {
-    display: grid;
     grid-template-columns: 40% 60%;
   }
   .articulo .articulo2 .hiden-img {
@@ -181,6 +171,15 @@ li a h4:hover {
   }
 }
 
+@media screen and (max-width: 750px) {
+  .articulo {
+    padding: 8px;
+  }
+  .articulo .articulo2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .btn-primary {
   background-color: rgb(131, 101, 53) !important;
   border-color: rgb(131, 101, 53) !important;
