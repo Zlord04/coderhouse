@@ -5,6 +5,8 @@
     &:hover{
         background-color: $colorSecundario !important;
         border-color: $colorSecundario !important;
+        transform: scale(1.1) !important;
+        transition: transform .4s;
     }
 }
 .btn-outline-primary{
@@ -14,5 +16,7 @@
         border-color: $colorSecundario !important;
         background-color: $colorSecundario !important;
         color: rgb(255, 255, 255) !important;
+        transform: scale(1.1) !important;
+        transition: transform .4s;
     }
 }
